@@ -21,9 +21,9 @@
 		margin: 0 0 1em 0;
 	}
 
-	p {
+	/* p {
 		margin: 1em auto;
-	}
+	} */
 
 	@media (min-width: 480px) {
 		h1 {
@@ -33,13 +33,13 @@
 </style>
 
 <svelte:head>
-	<title>Sapver</title>
+	<title>Nathan Puls</title>
 </svelte:head>
 
-<h1>Great successssss!</h1>
+<h1>Nathan Puls</h1>
 
 
 <figure>
-	<img alt='Borat' src='great-success.png'>
+	<img alt='Nathan Puls' src='nathan.png'>
 </figure>
 
