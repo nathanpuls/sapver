@@ -1,0 +1,1 @@
+<img src="https://nathanpuls.com/assets/img/clients-2-rows-1%20copy.png?h=12bcf3930cf9728fb75f79a1759d1bd0" alt="clients">

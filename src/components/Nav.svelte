@@ -50,11 +50,13 @@
 
 <nav>
 	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Demos</a></li>
+		<li><a aria-current="{segment === 'projects' ? 'page' : undefined}" href="projects">Projects</a></li>
+		<li><a aria-current="{segment === 'studio' ? 'page' : undefined}" href="studio">Studio</a></li>
+		<li><a aria-current="{segment === 'clients' ? 'page' : undefined}" href="clients">Clients</a></li>
+		<li><a aria-current="{segment === 'reviews' ? 'page' : undefined}" href="reviews">Reviews</a></li>
+		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About</a></li>
+		<li><a aria-current="{segment === 'podcast' ? 'podcast' : undefined}" href="podcast">Podcast</a></li>
+		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact">Get in touch</a></li>
 	</ul>
 </nav>
